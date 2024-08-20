@@ -37,33 +37,33 @@ content:
         title: Implementación de Sistema de Gestión de Tickets 
         # link:  # If you have a link to a project showcase or portfolio, add it here
         link_text: Ver más 
-        additional_links:
-          - title:  
-            icon: fab fa-github
-            url:  # Add relevant link if available
+        # additional_links:  # Uncomment and add links if available
+        #   - title:  GitHub 
+        #     icon: fab fa-github
+        #     url:  
         quote: >
-          Optimización del soporte técnico mediante la implementación de un sistema de gestión de tickets, mejorando la eficiencia en la resolución de problemas y la comunicación con los usuarios
+          Optimización del soporte técnico mediante la implementación de un sistema de gestión de tickets
         description: | 
-          * Analicé las necesidades del equipo de soporte y seleccioné un sistema de gestión de tickets adecuado
-          * Configuré el sistema, incluyendo la creación de flujos de trabajo, categorías y niveles de prioridad
-          * Capacité al equipo en el uso del nuevo sistema y brindé soporte durante la transición
-          * Monitoreé el desempeño del sistema y realicé ajustes para mejorar continuamente la eficiencia del soporte técnico
+          * Analicé las necesidades del equipo y seleccioné un sistema adecuado
+          * Configuré flujos de trabajo, categorías y prioridades
+          * Capacité al equipo y brindé soporte durante la transición
+          * Monitoreé el desempeño y realicé mejoras continuas
 
       - layout: left
         title: Optimización de Procesos Administrativos
         # link: 
         link_text: Ver más
-        additional_links:
-          - title:  
-            icon: fab fa-github
-            url: 
+        # additional_links:
+        #   - title:  
+        #     icon: fab fa-github
+        #     url: 
         quote: > 
-          Mejora de la eficiencia y productividad mediante la identificación y optimización de procesos administrativos clave
+          Mejora de la eficiencia mediante la identificación y optimización de procesos clave
         description: |
-          * Analicé los flujos de trabajo existentes e identifiqué áreas de mejora
-          * Implementé soluciones para agilizar procesos, como la digitalización de documentos y la estandarización de procedimientos
-          * Capacité al personal en los nuevos procesos y brindé seguimiento para asegurar su correcta adopción
-          * Logré una reducción en el tiempo de procesamiento de tareas y una mejora en la organización general
+          * Analicé flujos de trabajo e identifiqué áreas de mejora
+          * Implementé soluciones para agilizar procesos (digitalización, estandarización)
+          * Capacitación y seguimiento para asegurar la adopción de nuevos procesos
+          * Reducción del tiempo de procesamiento y mejora en la organización
 
   - title: Experiencia Profesional
     layout: list
@@ -136,3 +136,27 @@ content:
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
