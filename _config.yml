@@ -2,7 +2,7 @@
 version: 2
 
 # Personal info
-name: [Tu Nombre Completo] 
+name: Mónica Ledezma Ramírez
 title: Técnica Administrativa y de Soporte TI 
 email: 
 phone: 86760558
@@ -10,7 +10,7 @@ phone: 86760558
 
 # Social links - Add your usernames if you have these profiles
 # twitter_username: 
-# github_username:  
+  github_username: https://github.com/Monled02  
 # stackoverflow_username: 
 # dribbble_username: 
 # facebook_username: 
@@ -34,7 +34,7 @@ content:
     content:
       - layout: left
         border: weak 
-        title: Implementación de Sistema de Gestión de Tickets 
+        title: Implementación de Gestión de Tickets 
         # link:  # If you have a link to a project showcase or portfolio, add it here
         link_text: Ver más 
         # additional_links:  # Uncomment and add links if available
@@ -42,7 +42,7 @@ content:
         #     icon: fab fa-github
         #     url:  
         quote: >
-          Optimización del soporte técnico mediante la implementación de un sistema de gestión de tickets
+          Optimización del soporte técnico mediante la implementación de gestión de tickets
         description: | 
           * Analicé las necesidades del equipo y seleccioné un sistema adecuado
           * Configuré flujos de trabajo, categorías y prioridades
@@ -124,6 +124,13 @@ content:
         quote: >
           Durante mis estudios, desarrollé habilidades clave en comunicación, empatía y resolución de conflictos
         description: | 
+        
+      - layout: top-right
+        title: Ministerio de Educacion Publica MEP Costa Rica (Public Education Ministery)
+        sub_title: Senior High school diploma, technical degree on C++ oritened programing.
+        caption: "2013-2017"
+        quote: >
+          Bachillerato en Educacion Media
 
   - title: Más Sobre Mí
     layout: text
